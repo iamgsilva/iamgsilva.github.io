@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+header {
+  background: #054c58;
+}
+
+.container {
+  max-width: 700px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+.container p {
+  line-height: 1.4rem;
+  margin-bottom: 3em;
+}
+
+.intro-text {
+  padding: 4em 0;
+
+  width: 75%;
+}
+
+.btn {
+  background: #00db6e;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5em;
+}
+
+.btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+}
